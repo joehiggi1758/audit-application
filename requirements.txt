@@ -98,7 +98,6 @@ greenlet==3.0.1
 h5py==3.11.0
 HeapDict==1.0.1
 holoviews==1.19.0
-huggingface-hub==0.25.1
 hvplot==0.10.0
 hyperlink==21.0.0
 idna==3.7
@@ -282,7 +281,6 @@ Rtree==1.0.1
 ruamel.yaml==0.17.21
 ruamel-yaml-conda==0.17.21
 s3fs==2024.3.1
-safetensors==0.4.5
 scikit-image==0.23.2
 scikit-learn==1.4.2
 scipy==1.13.1
@@ -326,16 +324,13 @@ three-merge==0.1.1
 tifffile==2023.4.12
 tinycss2==1.2.1
 tldextract==3.2.0
-tokenizers==0.20.0
 toml==0.10.2
 tomli==2.0.1
 tomlkit==0.11.1
 toolz==0.12.0
-torch==2.2.2
 tornado==6.4.1
 tqdm==4.66.4
 traitlets==5.14.3
-transformers==4.45.1
 truststore==0.8.0
 Twisted==23.10.0
 typing_extensions==4.11.0

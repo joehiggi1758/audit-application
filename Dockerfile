@@ -1,17 +1,18 @@
-# Use an official Python runtime as a parent image
-FROM python:3.9-slim
+# Use official Python image
+FROM python:3.9
 
-# Set the working directory in the container
+# Set working directory
 WORKDIR /app
 
-# Copy the current directory contents into the container at /app
-COPY . /app
+# Copy requirements and install dependencies
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
 
-# Install any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir -r app/requirements.txt
+# Copy the rest of the application
+COPY . .
 
-# Expose the port that the Streamlit app runs on
+# Expose the port Streamlit uses
 EXPOSE 8501
 
-# Command to run the streamlit app
-CMD ["streamlit", "run", "app/streamlit_app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+# Command to run the Streamlit app
+CMD ["streamlit", "run", "app.py"]

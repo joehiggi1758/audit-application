@@ -1,18 +1,14 @@
 import streamlit as st
-# from model import classify_audit_procedure
 
-# Streamlit app
-st.title("Audit Procedure Automation Classifier")
+st.title("Insurance Complaint Classifier")
 
-# Input for audit procedure text
-procedure_text = st.text_area("Enter the audit procedure text:")
+user_input = st.text_area("Enter customer complaint:")
 
 if st.button("Classify"):
-    if procedure_text:
-        result = classify_audit_procedure(procedure_text)
-        if result == 1:
-            st.success("This audit procedure is a good candidate for automation!")
-        else:
-            st.warning("This audit procedure is NOT a good candidate for automation.")
-    else:
-        st.error("Please enter some text to classify.")
+    inputs = tokenizer(user_input, return_tensors="pt", truncation=True, padding=True)
+    outputs = model(**inputs)
+    prediction = torch.argmax(outputs.logits, dim=-1).item()
+
+    # Assuming you have a mapping from label numbers to categories
+    label_map = {0: "Claims Issue", 1: "Fee Dispute", 2: "Policy Administration"}
+    st.write(f"Predicted Category: {label_map[prediction]}")
