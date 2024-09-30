@@ -1,15 +1,13 @@
 # Use official Python image
-FROM python:3.9
+FROM python:3.10
 
 # Set working directory
 WORKDIR /app
 
-# Copy requirements and install dependencies
-COPY requirements.txt requirements.txt
-RUN pip install -r requirements.txt
-
-# Copy the rest of the application
 COPY . .
+
+# Copy requirements and install dependencies
+RUN pip install -r app/requirements.txt
 
 # Expose the port Streamlit uses
 EXPOSE 8501

@@ -1,0 +1,4 @@
+yes | docker system prune -a --volumes
+docker build -t audit-app .
+docker run -d -p 8501:8501 audit-app
+
