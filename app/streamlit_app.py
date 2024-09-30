@@ -2,7 +2,7 @@ import streamlit as st
 from transformers import pipeline
 
 # Load the Hugging Face question-answering pipeline using DistilBERT
-qa_pipeline = pipeline("question-answering", model="distilbert-base-uncased-distilled-squad")
+qa_pipeline = pipeline("question-answering", model="distilbert-base-uncased-distilled-squad", clean_up_tokenization_spaces=True)
 
 # Set up Streamlit app with a sidebar for navigation
 st.sidebar.title("Navigation")
