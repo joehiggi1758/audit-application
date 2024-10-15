@@ -4,12 +4,11 @@ from transformers import pipeline
 # Load the Hugging Face question-answering pipeline using DistilBERT
 qa_pipeline = pipeline("question-answering", model="distilbert-base-uncased-distilled-squad", clean_up_tokenization_spaces=True)
 
-# Set up Streamlit app with a sidebar for navigation
-st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["Overview", "Chat with QA Bot"])
+# Set up Streamlit app with tabs for navigation
+tabs = st.tabs(["Overview", "Chat with QA Bot"])
 
-if page == "Overview":
-    # Overview Page
+# Overview tab
+with tabs[0]:
     st.title("Welcome to the QA Chatbot App 🤖")
     st.write("""
         This application allows you to interact with a question-answering chatbot. 
@@ -19,14 +18,22 @@ if page == "Overview":
         - **DistilBERT-based QA**: Uses the DistilBERT model to answer questions.
         - **Interactive Chat**: Engage in a conversation with the QA bot to get answers from a given context.
         
+        ### Key Applications
+        #### Anti-Money Laundering (AML)
+        - **Speeding up KYC Analysis**: In AML, analysts often need to review large volumes of customer information and documents during the Know Your Customer (KYC) process. This QA tool can help quickly extract key information from these documents, speeding up the review and decision-making process.
+        - **Identifying Red Flags**: QA models can assist in identifying specific patterns or red flags in customer behavior based on large datasets, allowing analysts to focus on high-risk cases.
+
+        #### Digital Internal Audit
+        - **Efficient Documentation Review**: Internal audits often require the review of extensive documentation, policies, and procedures. This QA tool can significantly reduce the time required to extract relevant information from these documents, ensuring that auditors can focus on analysis rather than manual document searches.
+        - **Improved Audit Insights**: By asking targeted questions, auditors can use the QA tool to quickly gain insights into compliance issues, control weaknesses, and operational risks, allowing for more efficient and effective audits.
+
         ### How to Use
-        1. Navigate to the "Chat with QA Bot" page using the sidebar.
-        2. Enter a context for the bot to understand.
-        3. Type in your questions, and the bot will provide the answers.
+        1. Enter a context for the bot to understand.
+        2. Type in your questions, and the bot will provide the answers.
     """)
 
-elif page == "Chat with QA Bot":
-    # Chat Page
+# Chat tab
+with tabs[1]:
     st.title("Chat with QA Bot 🤖")
     st.write("This app allows you to ask questions based on a given context.")
 
