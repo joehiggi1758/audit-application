@@ -4,15 +4,15 @@
 # Question and Answer AI Chatbot 🤖
 
 ## Overview
-Welcome to the **Question and Answer AI Chatbot** repository! This project showcases an interactive question-answering chatbot designed specifically for internal audit professionals. By utilizing a machine learning model, this app helps associates interactively query documents, making it easier to extract insights from audit reports and manuals, improving productivity, and speeding up audit processes.
+Welcome to the **Question and Answer AI Chatbot** repository! This project showcases an interactive question-answering chatbot designed specifically for internal financial professionals. By utilizing a machine learning model, this app helps associates interactively query documents, making it easier to extract insights from financial reports and manuals, improving productivity, and speeding up financial processes.
 
 This project leverages modern AI technologies, including Hugging Face Transformers, and showcases practical software engineering skills, including Python development, containerization, and deployment on Linux environments.
 
 ## Features
-- **Interactive QA Chatbot**: Ask questions about a given audit document or passage, and get accurate responses in real time.
+- **Interactive QA Chatbot**: Ask questions about a given financial document or passage, and get accurate responses in real time.
 - **Powered by DistilBERT**: Uses the DistilBERT model for efficient and extractive question answering.
 - **Web Interface**: Developed using Streamlit, allowing easy access and an intuitive chat-like interface.
-- **Deployment Flexibility**: Designed to run seamlessly on Linux servers, making it easy to integrate into existing audit infrastructure.
+- **Deployment Flexibility**: Designed to run seamlessly on Linux servers, making it easy to integrate into existing financial infrastructure.
 
 ## Technologies Used
 - **Python**: The main programming language used for development.
@@ -22,7 +22,7 @@ This project leverages modern AI technologies, including Hugging Face Transforme
 
 ## Usage
 - **Overview Page**: Provides an introduction and explanation of how the app works.
-- **Chat with QA Bot Page**: Enter an audit document or passage as context, and interact with the chatbot by asking relevant questions.
+- **Chat with QA Bot Page**: Enter an financial document or passage as context, and interact with the chatbot by asking relevant questions.
 
 ## Project Structure
 - **app.py**: Main Streamlit application file.
