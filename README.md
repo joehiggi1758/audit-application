@@ -4,7 +4,7 @@
 # Question and Answer AI Chatbot 🤖
 
 ## Overview
-Welcome to the **Question and Answer AI Chatbot** repository! This project showcases an interactive question-answering chatbot designed specifically for internal audit professionals. By utilizing a machine learning model, this app helps auditors interactively query documents, making it easier to extract insights from audit reports and manuals, improving productivity, and speeding up audit processes.
+Welcome to the **Question and Answer AI Chatbot** repository! This project showcases an interactive question-answering chatbot designed specifically for internal audit professionals. By utilizing a machine learning model, this app helps associates interactively query documents, making it easier to extract insights from audit reports and manuals, improving productivity, and speeding up audit processes.
 
 This project leverages modern AI technologies, including Hugging Face Transformers, and showcases practical software engineering skills, including Python development, containerization, and deployment on Linux environments.
 
@@ -36,8 +36,8 @@ This project leverages modern AI technologies, including Hugging Face Transforme
 - **Identifying Red Flags**: QA models can assist in identifying specific patterns or red flags in customer behavior based on large datasets, allowing analysts to focus on high-risk cases.
 
 #### Digital Internal Audit
-- **Efficient Documentation Review**: Internal audits often require the review of extensive documentation, policies, and procedures. This QA tool can significantly reduce the time required to extract relevant information from these documents, ensuring that auditors can focus on analysis rather than manual document searches.
-- **Improved Audit Insights**: By asking targeted questions, auditors can use the QA tool to quickly gain insights into compliance issues, control weaknesses, and operational risks, allowing for more efficient and effective audits.
+- **Efficient Documentation Review**: Internal audits often require the review of extensive documentation, policies, and procedures. This QA tool can significantly reduce the time required to extract relevant information from these documents, ensuring that associates can focus on analysis rather than manual document searches.
+- **Improved Audit Insights**: By asking targeted questions, associates can use the QA tool to quickly gain insights into compliance issues, control weaknesses, and operational risks, allowing for more efficient and effective audits.
 
 #### Other
 - **Compliance Checks**: Quickly get answers about policy compliance by querying related sections of regulatory documents.
