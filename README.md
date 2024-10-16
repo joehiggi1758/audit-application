@@ -1,10 +1,10 @@
 ### Overview
 #### *By Joey Higgins*
 
-# Digital Internal Audit AI Chatbot 🤖
+# Question and Answer AI Chatbot 🤖
 
 ## Overview
-Welcome to the **Digital Internal Audit AI Chatbot** repository! This project showcases an interactive question-answering chatbot designed specifically for internal audit professionals. By utilizing a machine learning model, this app helps auditors interactively query documents, making it easier to extract insights from audit reports and manuals, improving productivity, and speeding up audit processes.
+Welcome to the **Question and Answer AI Chatbot** repository! This project showcases an interactive question-answering chatbot designed specifically for internal audit professionals. By utilizing a machine learning model, this app helps auditors interactively query documents, making it easier to extract insights from audit reports and manuals, improving productivity, and speeding up audit processes.
 
 This project leverages modern AI technologies, including Hugging Face Transformers, and showcases practical software engineering skills, including Python development, containerization, and deployment on Linux environments.
 
@@ -41,7 +41,7 @@ This project leverages modern AI technologies, including Hugging Face Transforme
 
 #### Other
 - **Compliance Checks**: Quickly get answers about policy compliance by querying related sections of regulatory documents.
-- **Training and Knowledge Sharing**: Use the chatbot for training junior auditors by providing instant access to critical insights from various documents.
+- **Training and Knowledge Sharing**: Use the chatbot for training junior associates by providing instant access to critical insights from various documents.
 
 ## Deployment
 This application is designed for easy deployment in a cloud or on-premises environment using Linux. The containerized nature ensures consistent performance and ease of scalability, it also ensures data privacy as data isn't used to retrain the base model and/or doesn't leave the application.
