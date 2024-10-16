@@ -50,4 +50,4 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ## Contact
-If you have any questions or suggestions, feel free to contact me at [joehiggi1758@gmail.com]. You can also connect with me on [LinkedIn](https://linkedin.com/in/josephpmhiggins).
+If you have any questions or suggestions, feel free to contact me at joehiggi1758@gmail.com. You can also connect with me on [LinkedIn](https://linkedin.com/in/josephpmhiggins).
