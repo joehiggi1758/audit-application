@@ -12,7 +12,7 @@ This project leverages modern AI technologies, including Hugging Face Transforme
 - **Interactive QA Chatbot**: Ask questions about a given financial document or passage, and get accurate responses in real time.
 - **Powered by DistilBERT**: Uses the DistilBERT model for efficient and extractive question answering.
 - **Web Interface**: Developed using Streamlit, allowing easy access and an intuitive chat-like interface.
-- **Deployment Flexibility**: Designed to run seamlessly on Linux servers, making it easy to integrate into existing financial infrastructure.
+- **Deployment Flexibility**: Designed to run seamlessly on Linux servers, making it easy to integrate into existing infrastructure.
 
 ## Technologies Used
 - **Python**: The main programming language used for development.
