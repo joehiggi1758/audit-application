@@ -44,7 +44,7 @@ This project leverages modern AI technologies, including Hugging Face Transforme
 - **Training and Knowledge Sharing**: Use the chatbot for training junior associates by providing instant access to critical insights from various documents.
 
 ## Deployment
-This application is designed for easy deployment in a cloud or on-premises environment using Linux. The containerized nature ensures consistent performance and ease of scalability, it also ensures data privacy as data isn't used to retrain the base model and/or doesn't leave the application.
+This application is designed for easy deployment in a cloud or on-premises environment using Linux. The containerized nature ensures consistent performance and ease of scalability, it also ensures data privacy as data isn't used to retrain the base model and doesn't leave the application.
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
